@@ -98,7 +98,7 @@ superstore-sales-analysis/
 |-----------------|------------|
 | 0–10%           | Positive ✅ |
 | 10–20%          | Positive ✅ |
-| 20–30%          | Near zero ⚠️ |
+| 20–30%          | Negative ❌  |
 | 30–50%          | Negative ❌ |
 | 50%+            | Heavily negative ❌ |
 
@@ -115,7 +115,7 @@ superstore-sales-analysis/
 
 | Model | R² Score | RMSE |
 |-------|----------|------|
-| Linear Regression | -0.70 | High |
+| Linear Regression | -0.70 | 287 |
 | Random Forest (default) | -0.04 | 212 |
 | Random Forest (tuned) | 0.07 | 212 |
 | **XGBoost** | **0.67** | **125** ✅ |
